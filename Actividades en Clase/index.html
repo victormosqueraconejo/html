@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto 02</title>
+    <meta name="description" content="Contenido academico">
+    <link rel="shortcut icon" href="img/logo.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+    <header class="header background">
+        <article class="border">
+            logo
+        </article>
+        <nav class="border menuprincipal">
+            <ul class="menu1">
+                <li class="item">
+                    <a href="registro.html" target="_blank">Registro</a>
+                </li>
+                <li class="item">Nosotros
+
+                </li>
+                <li class="item">
+                    <a href="#listas">Listas</a>
+                    
+
+                </li>
+                <li class="item">
+                    <a href="registro.html#parrafo3" target="_blank">Parrafo 3</a>
+
+                </li>
+            </ul>
+        </nav>
+        <nav class="border">
+            login
+        </nav>
+    </header>
+    <br>
+    <main class="main background">
+        <section class="encabezados border fondo">
+            <h1>Encabezado 1</h1>
+            <h2>Encabezado 2</h2>
+            <h3>Encabezado 3</h3>
+            <h4>Encabezado 4</h4>
+            <h5>Encabezado 5</h5>
+            <h6>Encabezado 6</h6>
+            
+        </section>
+        <br>
+        <section class="border">
+            <h1>Parrafos</h1>
+            
+            <p>I <i><b>Lorem ipsum dolor sit amet</b></i> consectetur, <em>adipisicing elit</em>. Nisi blanditiis autem ut quia accusamus in similique dolorum iste, ipsa at molestiae aperiam repudiandae voluptatem eos est <sub>nesciunt aliquam et tempore?</sub></p>
+            <p>I <mark>Lorem, ipsum dolor sit amet consectetur</mark> <small>adipisicing elit  </small>. Doloremque <del>explicabo</del> <ins>coplicao </ins>eum cumque et, voluptate aliquam, quo labore vero numquam officia est veritatis tempore, <sup>a aut dolore obcaecati neque nemo amet!</sup></p>
+            <blockquote cite ="www.google.com">
+                for 50 years
+            </blockquote>
+        </section>
+        <br>
+        <section>
+        <h1 id="listas">Listas</h1>
+        <a href="#top">subir</a>
+        <h2>Listas Ordenadas</h2>
+        <ol>
+            <li> item</li>
+            <li> item</li>
+            <li> item</li>
+            <li> item</li>
+            <li> item</li>
+        </ol>
+        <h3>
+            <ul>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+                <li>Item</li>
+            </ul>
+        </h3>
+        <h4>
+            <dl>
+                <dt>Termino</dt>
+                <dd>Descripcion del termino</dd>
+                <dt>Termino 2</dt>
+                <dd>Descripccion del termino 2</dd>
+            </dl>
+        </h4>
+        <h1>TABLAS</h1>
+        <table>
+            <caption class="border">titulo de la tabla</caption>
+            <thead><tr>
+                <th>
+                    hora
+                </th>
+                <th>lunes</th>
+                <th>martes</th>
+                <th>miercoles</th>
+                <th>jueves</th>
+                <th>viernes</th>
+        </tr></thead>
+        <tbody>
+            <tr>
+                <td>7:00 - 10:00</td>
+                <td>Etica</td>
+                <td>Algoritmos</td>
+                <td class="border" rowspan="2">Diseño Web</td>
+                <td>Bases de Datos</td>
+                <td class="border" rowspan="2">Matematicas</td>
+            </tr>
+                    <tr>
+                            <td>9:00 - 10:00</td>
+                            <td>Ingles</td>
+                            <td>Diseño</td>
+                            
+                            <td>Moviles</td>
+                            
+                        </tr>
+            <tr>
+                <td class="border" colspan="6">Descanso</td>
+            </tr>
+            <tr>
+                <td>7:00 - 10:00</td>
+                <td>Deportes</td>
+                <td>Diseño</td>
+                <td>Diseño Web</td>
+                <td>Moviles</td>
+                <td>Matematicas</td>
+            </tr>
+            
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="6">Adso</td>
+            </tr>
+        </tfoot>
+        </table>
+        </section>
+        <section class="border">
+            <h1>Formulario</h1>
+            <form class="form" action="index.html">
+                <div><label for="nombre">Ingrese noombre</label><br>
+                <input type="text" id="nombre"></div>
+                <div><label for="apellido">Ingrese apellido</label><br>
+                <input type="text" id="apellido"></div>
+                <div><label for="correo">Ingrese correo</label><br>
+                <input type="email" id="correo"></div>
+                <div><label for="genero">Selecione Genero</label><br>
+                <input type="radio" id="genero" name="genero"> Masculino
+                <input type="radio" id="genero" name="genero"> Femenino
+                <input type="radio" id="genero"  name="genero"> no sabe
+                </div>
+                <div>
+                    <fieldset>
+                        <legend>
+                            Deportes
+                        </legend>
+                    <input type="checkbox">fulbol
+                    <input type="checkbox"> voleball
+                    <input type="checkbox">basquetball
+                    </fieldset>
+                </div>
+                <div>
+                    <label for="fecha">Fecha de nacimiento</label><br>
+                    <input type="date" id="fecha">
+                </div>
+                <div>
+                    <label for="pais">seleccione pais</label>
+                    <select name="pais" id="pais">
+                        <option value="colombia"> Colombia</option>
+                        <option value="peru">peru</option>
+                        <option value="chile"> chile</option>
+                    </select>
+                </div>
+                <div><label for="contraseña">Contaseña</label><br>
+                <input type="password" id="contraseña">
+                <div><label for="ciudad">Ingrese ciudad</label><br>
+                <input type="text" id="ciudad" required>
+                </div>
+                <div>
+                    <label for="mensaje">Igrese un mensaje</label><br>
+                    <textarea name="mensaje" id="mensaje"></textarea>
+                </div>
+                <button>registrar</button>
+                </div>
+            </form>
+        </section>
+        <section>
+            <h1>Multimedia</h1>
+            <article class="images">
+                <img class="title" src="img/logo.jpg" alt="logo">
+            </article>
+        </section>
+        <section>
+            <video class="images" src="https://youtu.be/3yM5uXp-T_0?si=g3y1n8Q7OQWVHwgF">gjfxx</video>
+        </section>
+        <section class="images">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/3yM5uXp-T_0?si=qjf2XKMOveVKe6Xy" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+        </section>
+        <section>
+            <audio src="audio/adw.mp3"></audio>
+        </section>
+        <section class="bordes">
+            <h1>
+                Bordes
+            </h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam quas porro non consequatur dolorum exercitationem, praesentium expedita dolores, soluta nisi consectetur nulla voluptatibus, laborum illo labore placeat. Culpa, nesciunt a!Lorem</p>
+            <p class="shadow fuente">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum quae officiis animi accusantium minima numquam beatae magni magnam nam voluptatum praesentium ipsum corporis, laboriosam iusto recusandae cumque soluta dolorum placeat?</p>
+            <p class="shadow">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Distinctio neque laboriosam sapiente quisquam officiis atque ullam accusamus. Fugiat eum possimus laudantium amet harum debitis est, ratione dolorum omnis animi similique.</p>
+        </section>
+
+    </main>
+    
+    <footer class="footer background">
+        pie de pagina
+    </footer>
+    
+</body>
+</html>
