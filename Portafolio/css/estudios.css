@@ -1,0 +1,75 @@
+:root {
+    --naranja: rgb(255, 87, 34);
+    --gris:  rgb(66, 66, 66);
+    --gris-claro: rgb(189,189,189);
+}
+body {
+    background-color: var(--gris-claro);
+}
+
+nav {
+    height: 10vh;
+}
+
+.main {
+    height: 3000px;
+    border: 1px solid red;
+
+}
+.imagen {
+    width: 25%;
+}
+
+.header {
+    background-color: var(--gris);
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+}
+.item {
+    list-style: none;
+}
+.borde {
+    border: 1px solid black;
+}
+.organizar {
+    display: flex;
+    justify-content: space-around;
+}
+p {
+    margin: 20px;
+    text-align: justify;
+}
+.certificado {
+    background-color: var(--gris);
+    margin: 20px;
+    height: 50vh;
+    width: 33%;
+}
+.casilla {
+    background-color: var(--naranja);
+    width: 10vw;
+    height: 15vh;
+}
+.fotoprofesional{
+    width: 25vw;
+    height: 25vh;
+}
+.texto {
+    width: 70%;
+}
+.cuadrado {
+    display: flex;
+}
+
+.redes {
+    width: 50%;
+    height: 10vh;
+    text-align: center;
+    background-color: var(--naranja);
+    margin: -5px;
+}
+section {
+    background-color: var(--gris);
+    margin: 10px;
+}

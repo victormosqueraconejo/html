@@ -1,0 +1,60 @@
+:root {
+    --naranja: rgb(255, 87, 34);
+    --gris:  rgb(66, 66, 66);
+    --gris-claro: rgb(189,189,189);
+}
+.borde {
+    border: 1px solid black;
+}
+body {
+    background-color: var(--gris-claro);
+}
+.header { 
+    height: 20vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--gris);
+}
+.menupricipal {
+    width: 40%;
+    background-color: var(--naranja);
+}
+.menu1 {
+    justify-content: space-around;
+    }
+.item {
+    list-style: none;
+    }
+.imagen {
+        width: 25%;
+}
+h3 {
+    text-align: center;
+}
+
+.cuadrado {
+    display: flex;
+}
+
+.redes {
+    width: 50%;
+    height: 10vh;
+    text-align: center;
+    background-color: var(--naranja);
+}
+.formulario {
+    text-align: center;
+    display: grid;
+    height: 150vh;
+    
+}
+textarea {
+    height: 70%;
+}
+input {
+    margin: 15px;
+}
+label {
+    background-color: var(--gris);
+    box-shadow: 5px 5px 10px  var(--gris);
+}

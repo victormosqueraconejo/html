@@ -1,0 +1,142 @@
+    :root {
+        --naranja: rgb(255, 87, 34);
+        --gris:  rgb(66, 66, 66);
+        --gris-claro: rgb(189,189,189);
+    }
+    
+    nav {
+        height: 10vh;
+    }
+    body {
+        background-color: var(--gris-claro);
+    }
+    .main {
+        height: 3000px;
+    }
+    .imagen {
+        width: 25%;
+    }
+
+    .header {
+        height: 20vh;
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--gris);
+    }
+
+    .presentacion {
+        display: flex;
+        
+    }
+
+    .borde {
+        border: 1px solid black;
+    }
+
+    .menupricipal {
+        width: 40%;
+    }
+
+    .menu1 {
+        justify-content: space-around;
+    }
+
+    .textopresentacion {
+        width: 50%;
+        height: 66vh;
+        align-content: center;
+    }
+
+    .item {
+        list-style: none;
+    }
+
+    .cuadrado {
+        display: flex;
+    }
+
+    .redes {
+        width: 50%;
+        height: 10vh;
+        text-align: center;
+
+        background-color: var(--naranja);
+    }
+
+    .boton {
+        justify-items: center;
+        width: 20%;
+        height: 60%;
+        margin: auto;
+        background-color: var(--naranja);
+    }
+
+    .contenedorbotoncentro {
+        display: flex;
+    }
+
+    .tabla {
+        text-align: center;
+        justify-content: center;
+        display: flex;
+    }
+
+    .casilla {
+        width: 80px;
+        height: 100px;
+        background-color: var(--naranja);
+    }
+
+    .imagendefondo {
+        width: 15%;
+        height: 10%;
+        margin: 10px;
+    }
+
+    .divexposicion {
+        display: flex;
+        align-items: end;
+        justify-content: center;
+        width: 100%;
+        height: 30%;
+    }
+
+    .contenedordevinetas {
+        width: 100%;
+        height: 20%;
+        display: flex;
+    }
+
+    .vinetas {
+        width: 30%;
+        margin: 20px;
+        height: 65%;
+        background-color: var(--gris);
+    }
+
+    .divmensaje {
+        height: 10%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .mensajeinspirador {
+        width: 60%;
+        height: 40%;
+        text-align: center;
+        margin: auto;
+        background-color: var(--naranja);
+    }
+    .imagenconcodigo {
+        width: 100%;
+        height: auto;
+        
+    }
+    .imagenconcodigo2 {
+        background-image: url(/img/imagenfondo.jpg);
+        background-size: cover;
+    }   
+    .video {
+        text-align: center;
+    }
