@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+}
+
+section { margin-trim: 10px;}
+.borde {
+    border: 1px solid black;
+    border-radius: 15px;
+    text-align: center;
+}
+.imagen {
+    width: 100%;
+    height: 100%;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+.articlemain {
+    display: flex;
+    flex-wrap: wrap;
+}
+p { margin: 20px;
+text-align: justify;}
+.contenedor_vinetas {
+    display: grid;
+}
+
+.vinetas {
+    width: 80%;
+    height: 25vh;
+    margin: 1.5%;
+}
+
+.contactanos {
+    display: flex;
+    margin: 20px;
+    flex-wrap: wrap;
+    .buscar {display: none}
+}
+
+/* Pantalla pequeña PQ menor de 300px */
+@media screen and (max-width: 300px) {
+    body {
+        background-color: yellow;
+        width: 100%;
+    }
+    .pq-1{width: 8,333%;}
+    .pq-2{width: 16,666%}
+    .pq-3{width: 25%}
+    .pq-4{width: 33,333%}
+    .pq-5{width: 41,666%}
+    .pq-6{width: 50%}
+    .pq-7{width: 58,333%}
+    .pq-8{width: 66,666%}
+    .pq-9{width: 75%}
+    .pq-10{width: 83,333%}
+    .pq-11{width: 91,666%}
+    .pq-12{width: 100%}
+}
+/* Pantalla medio-pequeña MP mayor de 301px y menor de 600px */
+@media screen and (min-width: 301px) and (max-width:600px) {
+    body {
+        background-color: blue;
+    }
+    header {
+              display: flex;
+              justify-content: space-evenly;
+              flex-wrap: wrap;
+          }
+    .contactanos {
+        justify-content: space-between;
+    }
+    .contenedor_vinetas { 
+        display: flex;
+    }
+    textarea {
+        width: 90%;
+    }
+    .mp-1{width: 8.333%;}
+    .mp-2{width: 16,666%}
+    .mp-3{width: 25%}
+    .mp-4{width: 33,333%}
+    .mp-5{width: 41,666%}
+    .mp-6{width: 50%}
+    .mp-7{width: 58,333%}
+    .mp-8{width: 66,666%}
+    .mp-9{width: 75%}
+    .mp-10{width: 83,333%}
+    .mp-11{width: 91,666%}
+    .mp-12{width: 100%}
+}
+
+/* Pantalla media MD mayor de 601px y menor de 900p*/
+@media screen and (min-width: 601px) and (max-width:900px) {
+    body {
+        background-color: red;
+        width: 100%;
+    }
+    header { display: flex;}
+
+    .logo{ 
+        height: 20vh;
+    }
+    .articlemain {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contenedor_vinetas {
+        display: flex;
+    }
+    textarea { 
+        width: 90%;
+    }
+    .contactanos { justify-content: space-evenly;}
+    .md-1{width: 8.333%;}
+    .md-2{width: 16.666%}
+    .md-3{width: 25%}
+    .md-4{width: 33.333%}
+    .md-5{width: 41.666%}
+    .md-6{width: 50%}
+    .md-7{width: 58.333%}
+    .md-8{width: 66.666%}
+    .md-9{width: 75%}
+    .md-10{width: 83.333%}
+    .md-11{width: 91.666%}
+    .md-12{width: 100%}
+
+}
+
+/* Pantalla grande-media GM mayor de 901px y menor de 1200px */
+@media screen and (min-width: 901px) and (max-width:1200px) {
+    body {
+        background-color: violet;
+}
+    header { display: flex;
+    flex-wrap: wrap;}
+
+    .logo{ 
+        height: 20vh;
+    }
+    .articlemain {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .contenedor_vinetas {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    textarea { 
+        width: 90%;
+    }
+    .vinetas { margin-inline: 0px;}
+    .contactanos { justify-content: space-evenly;}
+    
+
+    .gm-1{width: 8,333%;}
+    .gm-2{width: 16,666%}
+    .gm-3{width: 25%}
+    .gm-4{width: 33,333%}
+    .gm-5{width: 41,666%}
+    .gm-6{width: 50%}
+    .gm-7{width: 58,333%}
+    .gm-8{width: 66,666%}
+    .gm-9{width: 75%}
+    .gm-10{width: 83,333%}
+    .gm-11{width: 91,666%}
+    .gm-12{width: 100%}
+
+
+}
+
+/* Pantalla grande GR mayor a 1201px */
+@media screen and (min-width: 1201px) {
+    body {
+        background-color: green;
+}
+    header { display: flex;
+    flex-wrap: wrap;}
+
+    .logo{ 
+        height: 20vh;
+    }
+    .articlemain {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .contenedor_vinetas {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    textarea { 
+        width: 90%;
+    }
+    .vinetas {margin-inline: 0px;}
+    .contactanos { justify-content: space-evenly;}
+
+    .gr-1{width: 8.333%;}
+    .gr-2{width: 16.666%}
+    .gr-3{width: 25%}
+    .gr-4{width: 33.333%}
+    .gr-5{width: 41.666%}
+    .gr-6{width: 50%}
+    .gr-7{width: 58.333%}
+    .gr-8{width: 66.666%}
+    .gr-9{width: 75%}
+    .gr-10{width: 83.333%}
+    .gr-11{width: 91.666%}
+    .gr-12{width: 100%}
+}
